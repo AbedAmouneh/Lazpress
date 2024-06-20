@@ -257,7 +257,7 @@ p, li, span {
 }
 
 .theme-bg {
-  background: #FD4A36;
+  background: #0C2957;
 }
 
 .white {
@@ -2234,7 +2234,7 @@ h6 {
 .quote-btn {
   font-size: 13px;
   font-weight: 600;
-  padding: 17px 43px;
+  padding: 14px 30px;
   background: #FD4A36;
   display: inline-block;
   text-transform: uppercase;
