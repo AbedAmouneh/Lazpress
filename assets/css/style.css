@@ -2230,29 +2230,33 @@ h6 {
 .lang-quote__2 .quote-btn {
   margin-left: 5px;
 }
-
 .quote-btn {
   font-size: 13px;
   font-weight: 600;
   padding: 14px 30px;
-  background: #FD4A36;
+  background: #0C2957;
   display: inline-block;
   text-transform: uppercase;
   color: #fff;
   margin-left: 30px;
-  color: #fff;
   border-radius: 3px;
+  border: 2px solid #0C2957; /* Add border with initial color */
+  transition: background 0.3s, color 0.3s, border-color 0.3s; /* Add transition */
 }
+
 .quote-btn:hover {
-  background: #0C2957;
-  color: #fff;
+  background: #fff;
+  color: #0C2957;
+  border-color: #0C2957; /* Change border color on hover */
 }
+
 @media (max-width: 1295px) {
   .quote-btn {
     margin-left: 15px;
     padding: 17px 30px;
   }
 }
+
 @media (max-width: 1199px) {
   .quote-btn {
     display: none;
@@ -2553,9 +2557,9 @@ input.form-control-sm {
 
 /* hero css */
 .hero__item {
-  padding: 0px 120px;
+  padding: 0px 0px;
   padding-right: 0px;
-  background-color: #FF442B;
+  background-color: #0C2957;
   position: relative;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
@@ -2751,7 +2755,7 @@ input.form-control-sm {
 .hero__title {
   color: #0C2957;
   font-size: 90px;
-  line-height: 110px;
+  line-height: 90px;
   color: #fff;
   font-weight: 700;
   position: relative;
@@ -3042,6 +3046,7 @@ input.form-control-sm {
   text-align: center;
   background: #fff;
   border-radius: 5px;
+  height: 390px;
 }
 .feature-item__icon {
   width: 90px;
@@ -3468,6 +3473,7 @@ input.form-control-sm {
 .service-item {
   align-items: center;
   box-shadow: 0px 8px 30px 0px rgba(2, 24, 95, 0.08);
+  height: 225px;
 }
 @media (max-width: 767px) {
   .service-item {
