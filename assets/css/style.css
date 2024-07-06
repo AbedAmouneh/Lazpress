@@ -2447,6 +2447,12 @@ input.form-control-sm {
 .select2-container--default .select2-selection--single .select2-selection__arrow {
   height: 34px;
 }
+.testimonial-author-image {
+  border-radius: 50%;
+  width: 500px;  /* Set the width to your desired size */
+  height: 350px; /* Set the height to your desired size */
+  object-fit: cover; /* Ensure the image covers the element, maintaining aspect ratio */
+}
 
 /* form css end */
 /*button css*/
